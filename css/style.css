@@ -1,0 +1,127 @@
+@font-face {
+	font-family: fontmain;
+	src: url(../fonts/OpenSans.ttf);
+}
+body {
+	margin: 0;
+	margin: auto;
+	width: 845px;	
+	height: 1240px;	
+	background-image: url(../img/bg.jpg);
+}
+
+body {
+	font-family: fontmain;
+}
+
+.contenido{
+	background-color: white;
+	padding: 15px;
+	overflow: auto;
+}
+
+
+/*
+#974e4e rojoclarito
+#a9a9a9 grisclarito
+#6f6e6d gris
+*/
+
+/*   banner   */
+
+#foto {
+	width: 224px;
+	height: 224px;
+	float: left;
+	margin-right: 15px;
+}
+.caja_datos {
+	background: black;
+	overflow: auto;
+	color: white;
+	padding: 15px;
+	box-shadow: 8px 8px 1px #974e4e;
+}
+.caja_datos h1{
+	display: block;
+	float: left;
+	margin: 0;
+	font-size: 58px;
+	line-height: 60px;
+	width: 485px;
+}
+.titulo p{
+	font-size: 25px;
+}
+.datos_personales{
+	font-weight: 600;
+}
+.datos_personales .izq{
+	color: #a9a9a9;
+	width: 200px;
+}
+.datos_personales .der{
+	color: #a9a9a9;
+	width: 200px;
+	text-align: right;
+}
+.der {
+	float: right;
+	margin: 0;
+}
+.izq {
+	float: left;
+	margin: 0;
+}
+
+/*   contenido   */
+
+.colizq,.colder{
+	margin-top: 15px;
+}
+
+.colizq{
+	float: left;
+	width: 229px;
+	padding-left: 10px;
+}
+.colder{
+	padding-left: 10px;
+	width: 566px;
+	float: left;
+}
+.colizq h2,.colizq h3,.colizq p,
+.colder h2,.colder h3,.colder p{
+	margin: 0;
+}
+.colizq p,.colder p{
+	font-weight: 700;
+	color: #6f6e6d;
+}
+.colizq ul,.colder ul{
+	padding-left: 28px;
+	margin: 0;
+	list-style-type: none;
+}
+.colizq li,.colder li{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.colizq h2,.colder h2{
+	text-decoration: underline;
+	text-decoration-style: ;
+}
+a.github {
+	text-decoration: none;
+	display: block;
+	color: black;
+	float: right;
+	font-size: 13px;
+	margin-top: 8px;
+}
+#proyectos {
+	overflow: auto;
+}
+
+
+
