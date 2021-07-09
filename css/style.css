@@ -111,6 +111,9 @@ body {
 	text-decoration: underline;
 	text-decoration-style: ;
 }
+.colder h2{
+	display: inline-block;
+}
 a.github {
 	text-decoration: none;
 	display: block;
@@ -118,9 +121,24 @@ a.github {
 	float: right;
 	font-size: 13px;
 	margin-top: 8px;
+	margin-left: 197px;
 }
 #proyectos {
 	overflow: auto;
+}
+
+#formacion_btn:hover,#complementarios_btn:hover{
+	color: white;
+	background: black;
+	cursor: pointer;
+}
+
+.hide {
+	display: none;
+}
+
+.show {
+	display: block;
 }
 
 
